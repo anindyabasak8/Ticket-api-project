@@ -18,7 +18,7 @@ public class BuyTicketApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application started.."); 
-		logger.info("New logger added..");
+		logger.info("New logger added..");//New commit
 		SpringApplication.run(BuyTicketApplication.class, args);//hello
 	}
 
