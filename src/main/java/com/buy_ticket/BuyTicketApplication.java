@@ -17,7 +17,8 @@ public class BuyTicketApplication {
     = LoggerFactory.getLogger(BuyTicketApplication.class); 
 
 	public static void main(String[] args) {
-		logger.info("Application started..");
+		logger.info("Application started.."); 
+		logger.info("New logger added..");
 		SpringApplication.run(BuyTicketApplication.class, args);//hello
 	}
 
