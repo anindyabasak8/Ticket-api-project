@@ -20,9 +20,8 @@ public class TicketPaymentController {
 	
 
 	@PostMapping("/book_ticket")
-	public String bookTicket(@RequestBody Request rq) throws Exception {
-		 tps.bookTicket(rq);
-		 return "Data saved";
+	public Ticket_Details bookTicket(@RequestBody Request rq) throws Exception {
+		 return tps.bookTicket(rq);
 	}
 	
 }
